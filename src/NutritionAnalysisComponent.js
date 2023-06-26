@@ -1,9 +1,11 @@
 const NutritionAnalysisComponent =({ label, quantity, unit })=>{
 
     return(
-        <div>
+        <div className="container">
+            <div className="analysisBox">
 
-<p><b>{label}</b> - {quantity} {unit}</p>
+<p ><b>{label}</b> - {quantity.toFixed()} {unit}</p>
+</div>
         </div>
     )
 }

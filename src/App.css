@@ -32,3 +32,16 @@ justify-content: center;
 background-color: #ddd6e8 ;
 color: black
   }
+
+
+  .analysisBox{
+    padding: 12px 24px;
+    background-color: white;
+    width: 150px;
+    box-shadow: inset 0px 0px 0px 4px #ddd6e8;
+    border: 1px solid  #575756
+  }
+ 
+  /*LOADER*/
+
+  

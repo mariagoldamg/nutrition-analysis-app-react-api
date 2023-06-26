@@ -1,11 +1,10 @@
 # Nutrition Analysis App
 
-//Content needs to be Updated accordingly!
+# API: https://developer.edamam.com/edamam-nutrition-api
 
-![cover](/yogaCover.png)
-> Yoga App and On-line Shop allowing you to choose classes you like, purchase items from the store, trek your wellness progress, send requests to the studio amd log in to your account to see special offers.
-> Live demo [_here_](https://yogashala-mernstack-mariamelnikova.netlify.app/). <!-- If you have the project hosted somewhere, include the link here. -->
-
+![cover](/Nutrition.png)
+> This App allows you to enter a list of ingredients and returns nutritional value. 
+> npm-start
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -18,51 +17,32 @@
 
 
 ## General Information
-- This a Yoga App with on-line shop, personal wellness trekker and personal log in account 
-- The purpose of this project was to practice my React and Redux skills
-- This project is following responsive design principles and is adapted for mobile devices.
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This App allows you to enter a list of ingredients and returns nutritional value. 
 
 
 ## Technologies Used
 - React
-- Redux
-- Node
-- Express
-- MongoDB
-- Stripe
-- Auth0
+- React Hooks (useState, useEffect)
+- CSS
+- Loader - https://loading.io/css/
+- SweetAlert
+- API 
+
 
 
 
 ## Features
 List the ready features here:
-- Shopping cart (Redux)
-- Payment System (Stripe)
-- Personal trecker (MongoDB)
-- Log In (Auth0)
-
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+- Input 1 or more ingredients with measured value
+- Receive a list of Nutritional Value
+- Loader
+- Alert if input is incorrect
 
 
 
 
 ## Project Status
-Project is: _complete_ . If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-
-Room for improvement:
-- Cart can be organized differently, not in a srparate modal window the way I did it.
-- I could display the quantity of items in the cart and not the total sum.
-- I need to work on log in feature, so it wouldnt kick you out to the main page after logging in.
-
+Project is: _complete_ . 
 
 
 
