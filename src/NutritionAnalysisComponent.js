@@ -1,7 +1,10 @@
-function NutritionAnalysisComponent(){
+const NutritionAnalysisComponent =({ label, quantity, unit })=>{
 
     return(
-        <div></div>
+        <div>
+
+<p><b>{label}</b> - {quantity} {unit}</p>
+        </div>
     )
 }
 
