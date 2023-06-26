@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Nutrition Analysis App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+//Content needs to be Updated accordingly!
 
-## Available Scripts
+![cover](/yogaCover.png)
+> Yoga App and On-line Shop allowing you to choose classes you like, purchase items from the store, trek your wellness progress, send requests to the studio amd log in to your account to see special offers.
+> Live demo [_here_](https://yogashala-mernstack-mariamelnikova.netlify.app/). <!-- If you have the project hosted somewhere, include the link here. -->
 
-In the project directory, you can run:
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## General Information
+- This a Yoga App with on-line shop, personal wellness trekker and personal log in account 
+- The purpose of this project was to practice my React and Redux skills
+- This project is following responsive design principles and is adapted for mobile devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- React
+- Redux
+- Node
+- Express
+- MongoDB
+- Stripe
+- Auth0
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
+List the ready features here:
+- Shopping cart (Redux)
+- Payment System (Stripe)
+- Personal trecker (MongoDB)
+- Log In (Auth0)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Project Status
+Project is: _complete_ . If you are no longer working on it, provide reasons why.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Room for Improvement
 
-### Code Splitting
+Room for improvement:
+- Cart can be organized differently, not in a srparate modal window the way I did it.
+- I could display the quantity of items in the cart and not the total sum.
+- I need to work on log in feature, so it wouldnt kick you out to the main page after logging in.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Contact
+Created by [@mariagoldamg](https://github.com/mariagoldamg) - feel free to contact me!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
